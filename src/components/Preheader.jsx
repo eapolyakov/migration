@@ -6,7 +6,7 @@ export default function Preheader(){
             <div className="row">
                 <div className="col-md-6 col-sm-8 col-xs-12">
                     <div className="header-top-left">
-                        <p>We are landscaping company, offer various landscape services</p>
+                        <p>Предоставляем услуги по получению гражданства России</p>
                     </div>
                 </div>
                 <div className="col-md-6 col-sm-4 col-xs-12">

@@ -6,7 +6,6 @@ import SliderItem from "./SliderItem";
 
 export default function Slider(){
     return <section className="slider-area">
-        <div className="slider-active2 slider-next-prev-style">
             <OwlCarousel
                 className="owl-theme"
                 autoplay
@@ -36,7 +35,6 @@ export default function Slider(){
 
                 />
             </OwlCarousel>
-            </div>
         </section>
 
 
