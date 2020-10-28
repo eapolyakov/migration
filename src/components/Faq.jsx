@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Faq(){
-    return <div className="faq-area">
+    return <div className="faq-area ptb-100" id="faq">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12  wow fadeInUp">

@@ -2,7 +2,7 @@ import React from 'react';
 import ServicesItem from "./ServicesItem";
 
 export default function Services(){
-    return <section className="service-area pb-140">
+    return <section className="service-area pb-140" id="services">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">

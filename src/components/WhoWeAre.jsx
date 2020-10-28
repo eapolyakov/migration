@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function WhoWeAre(){
-    return <section className="about-area ptb-140">
+    return <section className="about-area ptb-140" id="about">
         <div className="container">
             <div className="row">
                 <div className="col-md-6 col-xs-12 wow fadeInLeft">

@@ -20,9 +20,9 @@ export default function Footer(){
                         <div className="footer-widget footer-menu">
                             <h2>Навигация</h2>
                             <ul>
-                                <li><a href="faq.html">Faq</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="#">Customer Insights</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="about.html">О нас</a></li>
+                                <li><a href="#"></a></li>
                                 <li><a href="service.html">FInancial Service</a></li>
                                 <li><a href="#">Business Devlopment</a></li>
                                 <li><a href="">Project Management</a></li>
@@ -61,7 +61,7 @@ export default function Footer(){
                                               name="msg"></textarea>
                                     </div>
                                     <div className="col-xs-12">
-                                        <button id="submit" className="cont-submit btn-contact" name="submit">SEND MESSAGE
+                                        <button id="submit" className="cont-submit btn-contact bg-danger" name="submit">SEND MESSAGE
                                         </button>
                                     </div>
                                 </div>

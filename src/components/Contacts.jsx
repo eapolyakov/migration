@@ -1,17 +1,17 @@
 import React from 'react';
 
 export default function Contacts(){
-    return <div className="contact-area ptb-100">
+    return <div className="contact-area ptb-30" id="contacts">
         <div className="container">
             <div className="row">
                 <div className="col-md-8">
                     <div className="contact-wrap form-style">
-                        <h3>Contact Me</h3>
+                        <h3>Оставить заявку</h3>
                         <div className="cf-msg"></div>
                         <form action="mail.php" method="post" id="cf">
                             <div className="row">
                                 <div className="col-sm-6 col-xs-12">
-                                    <input type="text" placeholder="Name" id="fname" name="fname"/>
+                                    <input type="text" placeholder="Имя" id="fname" name="fname"/>
                                 </div>
                                 <div className="col-sm-6 col-xs-12">
                                     <input type="text" placeholder="Email" id="email" name="email"/>

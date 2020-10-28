@@ -27,9 +27,9 @@ function App() {
             <Steps/>
             <Pricing/>
             <AboutNoPic/>
+            <Video/>
             <Faq/>
             <Testimonials/>
-            <Video/>
             <Contacts/>
             <Footer/>
         </BrowserRouter>

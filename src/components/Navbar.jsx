@@ -14,19 +14,19 @@ export default function Navbar() {
                         <div className="mainmenu">
                             <ul id="navigation">
                                 <li>
-                                    <NavLink to="#">О нас<i className=""></i></NavLink>
+                                    <a href="#about">О нас<i className=""></i></a>
                                 </li>
                                 <li>
-                                    <NavLink to="#">Услуги <i className=""></i></NavLink>
+                                    <a href="#services">Услуги <i className=""></i></a>
                                 </li>
                                 <li>
-                                    <NavLink to="#">Цены <i className=""></i></NavLink>
+                                    <a href="#pricing">Цены <i className=""></i></a>
                                 </li>
                                 <li>
-                                    <NavLink to="#">Ответы на вопросы <i className=""></i></NavLink>
+                                    <a href="#faq">Ответы на вопросы <i className=""></i></a>
                                 </li>
                                 <li>
-                                    <NavLink to="#">Контакты</NavLink>
+                                    <a href="#contacts">Контакты</a>
                                 </li>
                             </ul>
                         </div>

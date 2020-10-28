@@ -5,6 +5,9 @@ export default function TestimonialsItemRight(props) {
         <div className="col-xs-12 wow fadeInRight">
             <div className="client-wrap fix">
                 <div className="client-info text-right">
+                    <div className="client-img pull-right">
+                        <img src={props.img} alt={props.alt}/>
+                    </div>
                     <h3>{props.name}</h3>
                     <span>{props.counrty}</span>
                     <ul>
@@ -16,9 +19,7 @@ export default function TestimonialsItemRight(props) {
                     </ul>
                     <p>{props.p}</p>
                 </div>
-                <div className="client-img pull-right">
-                    <img src={props.img} alt={props.alt}/>
-                </div>
+
             </div>
         </div>
     </div>

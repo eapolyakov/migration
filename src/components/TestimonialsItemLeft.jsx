@@ -4,7 +4,10 @@ export default function TestimonialsItemLeft(props) {
     return <div className="item">
         <div className="col-xs-12 wow fadeInLeft">
             <div className="client-wrap fix">
-                <div className="client-info text-right">
+                <div className="client-info text-left">
+                    <div className="client-img pull-left">
+                        <img src={props.img} alt={props.alt}/>
+                    </div>
                     <h3>{props.name}</h3>
                     <span>{props.counrty}</span>
                     <ul>
@@ -16,9 +19,7 @@ export default function TestimonialsItemLeft(props) {
                     </ul>
                     <p>{props.p}</p>
                 </div>
-                <div className="client-img pull-right">
-                    <img src={props.img} alt={props.alt}/>
-                </div>
+
             </div>
         </div>
     </div>
