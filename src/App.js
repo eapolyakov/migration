@@ -15,20 +15,22 @@ import Testimonials from "./components/Testimonials";
 import Video from "./components/Video";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
+import Quiz from "./components/Quiz";
 
 function App() {
     return (<BrowserRouter>
             <Header/>
             <Slider/>
             <WhoWeAre/>
+            <Faq/>
             <Stats/>
             <Benefits/>
             <Services/>
+            <Quiz/>
             <Steps/>
             <Pricing/>
             <AboutNoPic/>
             <Video/>
-            <Faq/>
             <Testimonials/>
             <Contacts/>
             <Footer/>

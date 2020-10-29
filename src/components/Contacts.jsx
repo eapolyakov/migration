@@ -1,12 +1,21 @@
 import React from 'react';
+import YMap from "./Map";
 
 export default function Contacts(){
     return <div className="contact-area ptb-30" id="contacts">
         <div className="container">
             <div className="row">
-                <div className="col-md-8">
+                <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
+                    <div className="section-title text-center">
+                        <h2>Связаться с нами</h2>
+                        <p>The majority have suffered alteration in some form, by injected humour, or randomised. by
+                            injected humour, or randomised.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-md-4">
                     <div className="contact-wrap form-style">
-                        <h3>Оставить заявку</h3>
                         <div className="cf-msg"></div>
                         <form action="mail.php" method="post" id="cf">
                             <div className="row">
@@ -56,8 +65,8 @@ export default function Contacts(){
                         </ul>
                     </div>
                 </div>
-                <div className="col-xs-12">
-                    Здесь будет карта
+                <div className="col-md-4">
+                    <YMap/>
                 </div>
             </div>
         </div>
