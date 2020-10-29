@@ -7,7 +7,7 @@ export default function HeaderContacts(){
             <div className="row">
                 <div className="col-md-3 hidden-sm hidden-xs">
                     <div className="logo">
-                        <h1><NavLink to="/">Програжданство</NavLink></h1>
+                        <h1>ПроГражданство.РФ</h1>
                     </div>
                 </div>
                 <div className="col-md-9 col-xs-12">
@@ -18,8 +18,8 @@ export default function HeaderContacts(){
                                     <i className="fa fa-clock-o"></i>
                                 </div>
                                 <div className="contact-info">
-                                    <p>MON - SAT (9AM - 5PM)</p>
-                                    <span>Sunday colsed</span>
+                                    <a href="#contacts"><p>ПОН-ПЯТ 08:00-19:00</p>
+                                        <span>СУБ-ВСК выходные</span></a>
                                 </div>
                             </li>
                             <li>
@@ -27,8 +27,8 @@ export default function HeaderContacts(){
                                     <i className="fa fa-envelope"></i>
                                 </div>
                                 <div className="contact-info">
-                                    <p>MAIL US</p>
-                                    <span>info@yourdomail.com</span>
+                                    <a href="mailto:prograzhdanstvo@yandex.ru"><p>Напишите нам</p>
+                                    <span>prograzhdanstvo@yandex.ru</span></a>
                                 </div>
                             </li>
                             <li>
@@ -36,8 +36,8 @@ export default function HeaderContacts(){
                                     <i className="fa fa-phone"></i>
                                 </div>
                                 <div className="contact-info">
-                                    <p>PHONE US</p>
-                                    <span> (+1) 1144-1254</span>
+                                    <a href="tel:+79261111111"><p>Позвоните нам</p>
+                                        <span>+79261111111</span></a>
                                 </div>
                             </li>
                         </ul>

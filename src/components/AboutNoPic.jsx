@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function AboutNoPic(){
-    return <section className="about-area pb-140">
+    return <section className="about-area pb-140" id="benefits">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">

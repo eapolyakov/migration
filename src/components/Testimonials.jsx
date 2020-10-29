@@ -2,6 +2,24 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import TestimonialsItemLeft from "./TestimonialsItemLeft";
 
+const options = {
+    margin: 30,
+    responsiveClass: true,
+    autoplayHoverPause: true,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    navText: ["Prev", "Next"],
+    loop: true,
+    responsive: {
+        0: {items: 1},
+        400: {items: 1},
+        600: {items: 2},
+        700: {items: 2}
+    }
+
+};
+
 export default function Testimonials(){
     return <section className="testmonial-area ptb-30">
         <div className="container">
@@ -17,11 +35,8 @@ export default function Testimonials(){
             <div className="row">
                 <div className="test-active">
                     <OwlCarousel
-                        className="owl-theme"
-                        autoplay
-                        items={2}
-                        loop
-                        autoplayHoverPause={1}
+                        className="owl-stage-outer"
+                        {...options}
                     >
                         <TestimonialsItemLeft
                             img="assets/images/client/2.jpg"

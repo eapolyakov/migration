@@ -71,7 +71,7 @@ export default function Quiz() {
         }
     };
     return (
-        <div className="container">
+        <div className="container" id="quiz">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">

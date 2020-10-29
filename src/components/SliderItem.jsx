@@ -13,8 +13,8 @@ export default function SliderItem(props){
                                 <h2>{props.h2}</h2>
                                 <p>{props.p}</p>
                                 <ul>
-                                    <li><NavLink to="#">Узнать как</NavLink></li>
-                                    <li><NavLink to="#">Оставить заявку</NavLink></li>
+                                    <li><a href="#faq">Узнать как</a></li>
+                                    <li><a href="#contacts">Оставить заявку</a></li>
                                 </ul>
                             </div>
                         </div>

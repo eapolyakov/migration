@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import WhoWeAre from "./components/WhoWeAre";
@@ -16,9 +16,13 @@ import Video from "./components/Video";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Quiz from "./components/Quiz";
+import Preloader from "./components/Preloader";
+import ScrollUpButton from "react-scroll-up-button";
+
 
 function App() {
     return (<BrowserRouter>
+            <Preloader/>
             <Header/>
             <Slider/>
             <WhoWeAre/>
@@ -34,6 +38,7 @@ function App() {
             <Testimonials/>
             <Contacts/>
             <Footer/>
+            <ScrollUpButton />
         </BrowserRouter>
 
   );
