@@ -8,23 +8,34 @@ export default function Pricing(){
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">
                         <h2>Наши цены</h2>
-                        <p>The majority have suffered alteration in some form, by injected humour, or randomised. by
-                            injected humour, or randomised.</p>
+                        <p>Оплата наших услуг осуществляется по мере реального продвижения вашего дела в соответствии с условиями Договора.</p>
                     </div>
                 </div>
             </div>
             <div className="row">
                 <PricingItem
-                    h3="Услуга1"
-                    price="10000 руб."
+                    h3="Квота на РВП"
+                    price="от 15000 руб."
                 />
                 <PricingItem
-                    h3="Услуга2"
-                    price="50000 руб."
+                    h3="РВП"
+                    price="от 20000 руб."
                 />
                 <PricingItem
-                    h3="Услуга3"
-                    price="30000 руб."
+                    h3="ВНЖ"
+                    price=" от 25000 руб."
+                />
+                <PricingItem
+                    h3="Гражданство"
+                    price="от 18000 руб."
+                />
+                <PricingItem
+                    h3="НРЯ"
+                    price=" от 13000 руб."
+                />
+                <PricingItem
+                    h3="Консультация"
+                    price="от 13000 руб."
                 />
             </div>
         </div>

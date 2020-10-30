@@ -18,8 +18,8 @@ export default function HeaderContacts(){
                                     <i className="fa fa-clock-o"></i>
                                 </div>
                                 <div className="contact-info">
-                                    <a href="#contacts"><p>ПОН-ПЯТ 08:00-19:00</p>
-                                        <span>СУБ-ВСК выходные</span></a>
+                                    <a href="#contacts"><p>Понедельник - Пятница 10-18</p>
+                                        <span>СБ-ВС выходные</span></a>
                                 </div>
                             </li>
                             <li>

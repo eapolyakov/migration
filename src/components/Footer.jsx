@@ -5,44 +5,45 @@ export default function Footer(){
         <div className="footer-top">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-6 col-xs-12  col">
+                    <div className="col-md-4 col-sm-6 col-xs-12  col">
                         <div className="footer-widget footer-logo">
-                            <h1>ПроГражданство</h1>
-                            <p>Lor separat existentie es un myth. Por scientie, musica, sport etc, litot usa li sam
-                                larLor separat existentie es un myth existentie.</p>
+                            <h1>ПроГражданство.РФ</h1>
+                            <p>Адрес</p>
                             <ul>
-                                <li><i className="fa fa-phone"></i> +455 5475 6645</li>
-                                <li><i className="fa fa-envelope"></i> info@yourdomail.com</li>
+                                <a href="tel:+79261111111"><li><i className="fa fa-phone"></i> +7 926 111 11 11</li></a>
+                                <a href="mailto:prograzhdanstvo@yandex.ru"><li><i className="fa fa-envelope"></i>prograzhdanstvo@yandex.ru</li></a>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-xs-12 col">
+                    <div className="col-md-4 col-sm-6 col-xs-12 col">
                         <div className="footer-widget footer-menu">
                             <h2>Навигация</h2>
                             <ul>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="about.html">О нас</a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="service.html">FInancial Service</a></li>
-                                <li><a href="#">Business Devlopment</a></li>
-                                <li><a href="">Project Management</a></li>
+                                <li>
+                                    <a href="#about">О нас<i className=""></i></a>
+                                </li>
+                                <li>
+                                    <a href="#services">Услуги <i className=""></i></a>
+                                </li>
+                                <li>
+                                    <a href="#faq">Как стать гражданином <i className=""></i></a>
+                                </li>
+                                <li>
+                                    <a href="#quiz">Этапы работы <i className=""></i></a>
+                                </li>
+                                <li>
+                                    <a href="#pricing">Цены <i className=""></i></a>
+                                </li>
+                                <li>
+                                    <a href="#benefits">Наши преимущества <i className=""></i></a>
+                                </li>
+                                <li>
+                                    <a href="#contacts">Контакты</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-xs-12 col">
-                        <div className="footer-widget instagram-wrap">
-                            <h2>Instagram</h2>
-                            <ul>
-                                <li><a href="#"><img src="assets/images/instagram/1.jpg" alt=""/></a></li>
-                                <li><a href="#"><img src="assets/images/instagram/2.jpg" alt=""/></a></li>
-                                <li><a href="#"><img src="assets/images/instagram/3.jpg" alt=""/></a></li>
-                                <li><a href="#"><img src="assets/images/instagram/4.jpg" alt=""/></a></li>
-                                <li><a href="#"><img src="assets/images/instagram/5.jpg" alt=""/></a></li>
-                                <li><a href="#"><img src="assets/images/instagram/6.jpg" alt=""/></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-xs-12 col">
+                    <div className="col-md-4 col-sm-6 col-xs-12 col">
                         <div className="footer-widget quick-contact">
                             <h2>Быстрая связь</h2>
                             <form action="mail.php" method="post" id="cf">

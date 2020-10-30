@@ -6,9 +6,8 @@ export default function Faq(){
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12  wow fadeInUp">
                     <div className="section-title text-center">
-                        <h2>Часто задаваемые вопросы</h2>
-                        <p>The majority have suffered alteration in some form, by injected humour, or randomised. by
-                            injected humour, or randomised.</p>
+                        <h2>Ответы на основные вопросы</h2>
+                        <p>Если Вы не найдёте свой ответ здесь, звоните, мы с радостью ответим!</p>
                     </div>
                 </div>
             </div>
@@ -21,16 +20,17 @@ export default function Faq(){
                                     <h4 className="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                            aria-expanded="true" aria-controls="collapseOne">
-                                            General Inquiries
+                                            Что такое РВП?
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseOne" className="panel-collapse collapse in">
                                     <div className="panel-body">
-                                        <p>Keep away from people who try to belittle your ambitions. Small peol always
-                                            do that. Keep away from ast people who try to belittle your ambitions. Small
-                                            peol always do that. Keep away from people who try to ast belittle your
-                                            ambitions. Small peol always do that.</p>
+                                        <p>Разрешение на временное проживание - это статус, позволяющий иностранному гражданину находиться на территории Российской Федерации 3 года. Наличие статуса позволяет не оформлять патент и продлить срок действия визы на срок выдачи РВП. Наличие РВП позволяет свободно работать субъекте Российской Федерации, где оно было выдано, и выезжать за пределы России.
+                                            По сути - это штамп, поставленный в документ, удостоверяющий личность иностранного гражданина, на котором указан срок его пребывания на территории России.
+                                            Разрешение на временное проживание - первый этап, необходимый для получения гражданства Российской Федерации.
+
+                                            РВП не требуется гражданам Республики Беларусь.</p>
                                     </div>
                                 </div>
                             </div>
@@ -40,16 +40,14 @@ export default function Faq(){
                                         <a className="collapsed" role="button" data-toggle="collapse"
                                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
                                            aria-controls="collapseTwo">
-                                            How To Use
+                                            Что такое ВНЖ?
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseTwo" className="panel-collapse collapse">
                                     <div className="panel-body">
-                                        <p>Keep away from people who try to belittle your ambitions. Small peol always
-                                            do that. Keep away from ast people who try to belittle your ambitions. Small
-                                            peol always do that. Keep away from people who try to ast belittle your
-                                            ambitions. Small peol always do that.</p>
+                                        <p>Вид на жительство - документ, позволяющий иностранному гражданину постоянно проживать на территории Российской Федерации продолжительное время. С октября 2019 года вид на жительство стал бессрочным.
+                                            Вид на жительство позволяет работать в любом субъекте Российской Федерации, получать социальные выплаты, бесплатное образование и медицину, владеть недвижимостью и указывать её в качестве постоянного места проживания, а также оформлять приглашения для родственников из визовых государств и выезжать за пределы России, если требуется.</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,16 +57,15 @@ export default function Faq(){
                                         <a className="collapsed" role="button" data-toggle="collapse"
                                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                                            aria-controls="collapseThree">
-                                            Shipping & Delivery
+                                            Гражданство Российской Федерации
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapseThree" className="panel-collapse collapse">
                                     <div className="panel-body">
-                                        <p>Keep away from people who try to belittle your ambitions. Small peol always
-                                            do that. Keep away from ast people who try to belittle your ambitions. Small
-                                            peol always do that. Keep away from people who try to ast belittle your
-                                            ambitions. Small peol always do that.</p>
+                                        <p>Иностранные граждане приходят к желанию получить гражданство России разными путями: кто-то сразу приезжает с этой целью и начинает с получения квоты, а кто-то много лет живет по виду на жительство, после чего принимает решение получить паспорт гражданина Российской Федерации.
+                                            Процедура получения гражданства России - очень сложный процесс, который требует большого количества документов, времени и терпения.
+                                            Каждый случай подачи документов на гражданство индивидуален и нет универсальной формулы получения паспорта.</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,16 +75,16 @@ export default function Faq(){
                                         <a className="collapsed" role="button" data-toggle="collapse"
                                            data-parent="#accordion" href="#collapsefour" aria-expanded="false"
                                            aria-controls="collapsefour">
-                                            Additional Information
+                                            Что такое НРЯ?
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapsefour" className="panel-collapse collapse">
                                     <div className="panel-body">
-                                        <p>Keep away from people who try to belittle your ambitions. Small peol always
-                                            do that. Keep away from ast people who try to belittle your ambitions. Small
-                                            peol always do that. Keep away from people who try to ast belittle your
-                                            ambitions. Small peol always do that.</p>
+                                        <p>Носитель русского языка - это статус, позволяющий иностранному гражданину в упрощенном порядке получить вид на жительство и гражданство Российской Федерации.
+                                            Для получения статуса НРЯ необходимо быть дееспособным иностранным гражданином, свободно владеющим русским языком и имеющим основания для прохождения данной комиссии.
+                                            Основанием для получения статуса Носителя русского языка должно являться подтверждение постоянного проживания иностранного гражданина или его родственника по прямой восходящей линии на территории РСФСР или Российской Федерации.
+                                            Статус НРЯ выдается пожизненно и воспользоваться им можно один раз.</p>
                                     </div>
                                 </div>
                             </div>
@@ -97,35 +94,13 @@ export default function Faq(){
                                         <a className="collapsed" role="button" data-toggle="collapse"
                                            data-parent="#accordion" href="#collapsefive" aria-expanded="false"
                                            aria-controls="collapsefive">
-                                            Additional Information
+                                            Что такое КВОТА на РВП?
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="collapsefive" className="panel-collapse collapse">
                                     <div className="panel-body">
-                                        <p>Keep away from people who try to belittle your ambitions. Small peol always
-                                            do that. Keep away from ast people who try to belittle your ambitions. Small
-                                            peol always do that. Keep away from people who try to ast belittle your
-                                            ambitions. Small peol always do that.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="panel panel-default">
-                                <div className="panel-heading" id="headingfsix">
-                                    <h4 className="panel-title">
-                                        <a className="collapsed" role="button" data-toggle="collapse"
-                                           data-parent="#accordion" href="#collapsesix" aria-expanded="false"
-                                           aria-controls="collapsesix">
-                                            Additional Information
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapsesix" className="panel-collapse collapse">
-                                    <div className="panel-body">
-                                        <p>Keep away from people who try to belittle your ambitions. Small peol always
-                                            do that. Keep away from ast people who try to belittle your ambitions. Small
-                                            peol always do that. Keep away from people who try to ast belittle your
-                                            ambitions. Small peol always do that.</p>
+                                        <p>Ежегодно для каждого региона нашей страны Правительством Российской Федерации утверждается квота на выдачу разрешений на временное проживание в России (РВП) – количественное ограничение на выдачу таких разрешений иностранным гражданам и лицам без гражданства, у которых отсутствуют основания для их получения без учета квоты.</p>
                                     </div>
                                 </div>
                             </div>
@@ -138,25 +113,25 @@ export default function Faq(){
                         <form action="mail.php" method="post" id="cf">
                             <div className="row">
                                 <div className="col-xs-12">
-                                    <span>Name</span>
-                                    <input type="text" placeholder="Name" id="fname" name="fname"/>
+                                    <span>Имя</span>
+                                    <input type="text" placeholder="Имя" id="fname" name="fname"/>
                                 </div>
                                 <div className="col-xs-12">
                                     <span>Email</span>
                                     <input type="text" placeholder="Email" id="email" name="email"/>
                                 </div>
                                 <div className="col-xs-12">
-                                    <span>Subject</span>
-                                    <input type="text" placeholder="Subject" id="subject" name="subject"/>
+                                    <span>Тема сообщения</span>
+                                    <input type="text" placeholder="Тема" id="subject" name="subject"/>
                                 </div>
                                 <div className="col-xs-12">
-                                    <span>Your Questions</span>
-                                    <textarea className="contact-textarea" placeholder="Questions" id="msg"
+                                    <span>Ваш вопрос</span>
+                                    <textarea className="contact-textarea" placeholder="Введите сообщение" id="msg"
                                               name="msg"></textarea>
                                 </div>
                                 <div className="col-xs-12">
                                     <button id="submit" className="cont-submit btn-contact btn-style"
-                                            name="submit">Questions
+                                            name="submit">Отправить
                                     </button>
                                 </div>
                             </div>

@@ -9,7 +9,7 @@ import Services from "./components/Services";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
-import AboutNoPic from "./components/AboutNoPic";
+import BenefitsAbout from "./components/BenefitsAbout";
 import Faq from "./components/Faq";
 import Testimonials from "./components/Testimonials";
 import Video from "./components/Video";
@@ -30,10 +30,10 @@ function App() {
             <Stats/>
             <Benefits/>
             <Services/>
-            <Quiz/>
             <Steps/>
+            <Quiz/>
             <Pricing/>
-            <AboutNoPic/>
+            <BenefitsAbout/>
             <Video/>
             <Testimonials/>
             <Contacts/>

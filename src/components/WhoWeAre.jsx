@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function WhoWeAre(){
-    return <section className="about-area ptb-140" id="about">
+    return <section className="about-area ptb-30" id="about">
         <div className="container">
             <div className="row">
                 <div className="col-md-6 col-xs-12 wow fadeInLeft">
@@ -12,20 +12,19 @@ export default function WhoWeAre(){
                 <div className="col-md-6 col-xs-12 wow fadeInRight">
                     <div className="about-wrap">
                         <h2>О нас</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.randomised words which don't look even slightly believable.</p>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised. by injected humour, or
-                            randomised.</p>
+                        <p>Мы это команда единомышленников и партнеров, объединенных целью оказания качественной помощи мигрантам.
+                            Наш опыт позволяет обеспечивать основательный подход к решению юридических вопросов.
+                            Основным направлением нашей работы является решение миграционных вопросов, мы помогаем организациям в оформлении иностранных работников, решаем любые юридические вопросы связанные с легальным пребыванием иностранцев в России.
+                            Ценности нашей компании: уважение, открытость и честность, безопасность для иностранных граждан.</p>
+                        <p>Ценности нашей компании: уважение, открытость и честность, безопасность для иностранных граждан.</p>
                         <ul>
-                            <li>There are many variations of passages</li>
-                            <li>By injected humour or randomised.</li>
-                            <li>the majority have suffered alteration</li>
-                            <li>majority have suffered alteration</li>
-                            <li>variations of passages of Lorem Ipsum</li>
-                            <li>of passages of Lorem Ipsum</li>
-                            <li>many variations of passages.</li>
+                            <li>Правовой анализ ситуации</li>
+                            <li>Подбор нормативно-правовой базы</li>
+                            <li>Разработка оптимального пути разрешения вопроса</li>
+                            <li>Пакет документов для РВП/ВНЖ/Гражданства РФ</li>
+                            <li>Запросы в архивы</li>
+                            <li>Нотариально заверенные переводы документов</li>
+                            <li>Информационно-консультационные услуги по подаче документов в Москве и МО</li>
                         </ul>
                     </div>
                 </div>

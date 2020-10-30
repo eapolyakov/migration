@@ -8,8 +8,7 @@ export default function Contacts(){
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">
                         <h2>Связаться с нами</h2>
-                        <p>The majority have suffered alteration in some form, by injected humour, or randomised. by
-                            injected humour, or randomised.</p>
+                        <p>Первая консультация по телефону БЕСПЛАТНО!</p>
                     </div>
                 </div>
             </div>
@@ -26,14 +25,14 @@ export default function Contacts(){
                                     <input type="text" placeholder="Email" id="email" name="email"/>
                                 </div>
                                 <div className="col-xs-12">
-                                    <input type="text" placeholder="Subject" id="subject" name="subject"/>
+                                    <input type="text" placeholder="Тема" id="subject" name="subject"/>
                                 </div>
                                 <div className="col-xs-12">
-                                    <textarea className="contact-textarea" placeholder="Message" id="msg"
+                                    <textarea className="contact-textarea" placeholder="Сообщение" id="msg"
                                               name="msg"></textarea>
                                 </div>
                                 <div className="col-xs-12">
-                                    <button id="submit" className="cont-submit btn-contact" name="submit">SEND MESSAGE
+                                    <button id="submit" className="cont-submit btn-danger" name="submit">Отправить
                                     </button>
                                 </div>
                             </div>
@@ -46,21 +45,19 @@ export default function Contacts(){
                             <li>
                                 <i className="fa fa-phone"></i>
                                 <p>+842 1544 2554</p>
-                                <p>+842 1544 2554</p>
                             </li>
                             <li>
                                 <i className="fa fa-envelope"></i>
-                                <p>martxa1545@gmail.com</p>
-                                <p>martxa1545@gmail.com</p>
+                                <a href="mailto:prograzhdanstvo@yandex.ru">
+                                    <p>prograzhdanstvo@yandex.ru</p></a>
                             </li>
                             <li>
-                                <i className="fa fa-fax"></i>
-                                <p>15455 54564866 3554</p>
+                                <i className="fa fa-whatsapp"></i>
                                 <p>15455 54564866 3554</p>
                             </li>
                             <li>
                                 <i className="fa fa-location-arrow"></i>
-                                227 Marion Street Address Here Columbia, SC 29201
+                                Москва Кремль
                             </li>
                         </ul>
                     </div>

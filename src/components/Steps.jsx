@@ -1,13 +1,13 @@
 import React from 'react';
 
 export default function Steps(){
-    return <div className="featured-area">
+    return <div className="featured-area ptb-30">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">
-                        <h2>Этапы получения гражданства России</h2>
-                        <p>Какой то текст</p>
+                        <h2>Как мы работаем?</h2>
+                        <p>Мы оказываем профессиональную поддержку на каждом этапе</p>
                     </div>
                 </div>
             </div>
@@ -22,16 +22,14 @@ export default function Steps(){
                                         <img src="assets/images/featured/1.jpg" alt=""/>
                                     </div>
                                     <div className="featured-info">
-                                        <h4 className="text-uppercase">5 дней</h4>
+                                        <h4 className="text-uppercase">Запись</h4>
                                         <p>
-                                            Подготовка комплекта документов и подача заявления в государственный орган для участия в программе переселения соотечественников
-                                        </p>
+                                            Первичная консультация по телефону, сбор краткой информации для подготовки эксперта к встрече.                                        </p>
                                     </div>
                                 </div>
                                 <div className="featured col-md-5">
                                     <div className="featured-info-left">
-                                            0% от суммы
-                                            При заключении договора
+
                                     </div>
                                 </div>
                             </li>
@@ -42,15 +40,13 @@ export default function Steps(){
                                         <img src="assets/images/featured/2.jpg" alt=""/>
                                     </div>
                                     <div className="featured-info">
-                                        <h4>Web Development</h4>
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
+                                        <h4 className="text-uppercase">Консультация</h4>
+                                        <p>На очной встрече юрист собирает всю необходимую информацию для решения Вашей ситуации, отталкиваясь от теоретических и практических знаний.</p>
                                     </div>
                                 </div>
                                 <div className="featured col-md-5">
                                     <div className="featured-info-right text-right">
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
+
                                     </div>
                                 </div>
                             </li>
@@ -61,15 +57,13 @@ export default function Steps(){
                                         <img src="assets/images/featured/3.jpg" alt=""/>
                                     </div>
                                     <div className="featured-info">
-                                        <h4>PHP </h4>
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
+                                        <h4 className="text-uppercase">Документы</h4>
+                                        <p>Специально для Вас будет разработан пошаговый этап решения проблемы и оформления необходимых документов.</p>
                                     </div>
                                 </div>
                                 <div className="featured col-md-5">
                                     <div className="featured-info">
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
+
                                     </div>
                                 </div>
                             </li>
@@ -80,40 +74,18 @@ export default function Steps(){
                                         <img src="assets/images/featured/4.jpg" alt=""/>
                                     </div>
                                     <div className="featured-info">
-                                        <h4>App Development</h4>
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
+                                        <h4 className="text-uppercase">Сопровождение под ключ</h4>
+                                        <p>Юрист будет поддерживать с Вами связь до достижения желаемого результата.</p>
                                     </div>
                                 </div>
                                 <div className="featured col-md-5">
                                     <div className="featured-info">
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="wow fadeInLeft" data-wow-delay=".5s">
-                                <h3>5 шаг</h3>
-                                <div className="featured-content">
-                                    <div className="featured-img">
-                                        <img src="assets/images/featured/5.jpg" alt=""/>
-                                    </div>
-                                    <div className="featured-info">
-                                        <h4 className="text-uppercase">1 день</h4>
-                                        <p>
-                                            Получение паспорта гражданина Российской Федерации
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="featured col-md-5">
-                                    <div className="featured-info">
-                                        <p>Alteration in some form, by injected humour, or randomised. by injected
-                                            humour, or randomised.</p>
+
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <h3>Вы гражданин РФ</h3>
+                                <h3>Вы получаете результат</h3>
                             </li>
                         </ul>
                     </div>

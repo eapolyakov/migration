@@ -36,16 +36,6 @@ export default function Benefits(){
                     <div className="ways__name"><span className="ways__mobile">Сроки</span>
                         <p>От 1 до 5 лет</p></div>
                 </div>
-                <div className="ways__item d-flex">
-                    <div className="ways__name">
-                        <span className="ways__mobile">Способ</span>
-                        <p>С нашей помощью</p>
-                    </div>
-                    <div className="ways__name"><span className="ways__mobile">Этапы</span>
-                        <p>этапы</p></div>
-                    <div className="ways__name"><span className="ways__mobile">Сроки</span>
-                        <p>сроки</p></div>
-                </div>
             </div>
         </div>
     </section>

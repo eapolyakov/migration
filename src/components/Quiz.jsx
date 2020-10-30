@@ -8,7 +8,7 @@ export default function Quiz() {
             answerOptions: [
                 { answerText: 'Украина', isCorrect: false },
                 { answerText: 'Беларусь', isCorrect: false },
-                { answerText: 'Узбеекистан', isCorrect: true },
+                { answerText: 'Узбекистан', isCorrect: true },
                 { answerText: 'Молдова', isCorrect: false },
                 { answerText: 'Таджикистан', isCorrect: false },
                 { answerText: 'Армения', isCorrect: false },
@@ -17,7 +17,7 @@ export default function Quiz() {
             ],
         },
         {
-            questionText: 'Где Вы годились?',
+            questionText: 'Где Вы родились?',
             answerOptions: [
                 { answerText: 'СССР', isCorrect: false },
                 { answerText: 'РСФСР', isCorrect: true },
@@ -49,7 +49,7 @@ export default function Quiz() {
                 { answerText: 'Как можно скорее', isCorrect: false },
                 { answerText: 'Через месяц', isCorrect: false },
                 { answerText: 'Через 2-3 месяца', isCorrect: false },
-                { answerText: 'Не знаю', isCorrect: true },
+                { answerText: 'Еще не решил', isCorrect: true },
             ],
         },
     ];
@@ -70,8 +70,8 @@ export default function Quiz() {
             setShowScore(true);
         }
     };
-    return (
-        <div className="container" id="quiz">
+    return (<section className="service-area pb-100">
+        <div className="container ptb-30" id="quiz">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">
@@ -113,5 +113,6 @@ export default function Quiz() {
                  </div>
             </div>
         </div>
+        </section>
     )
 }
