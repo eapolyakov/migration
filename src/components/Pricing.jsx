@@ -35,7 +35,7 @@ export default function Pricing(){
                 />
                 <PricingItem
                     h3="Консультация"
-                    price="от 13000 руб."
+                    price="БЕСПЛАТНО"
                 />
             </div>
         </div>

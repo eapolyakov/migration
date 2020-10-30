@@ -19,13 +19,14 @@ export default function Contacts(){
                         <form action="mail.php" method="post" id="cf">
                             <div className="row">
                                 <div className="col-sm-6 col-xs-12">
+                                    <label htmlFor="phone">Введите ваше имя:</label>
                                     <input type="text" placeholder="Имя" id="fname" name="fname"/>
                                 </div>
                                 <div className="col-sm-6 col-xs-12">
-                                    <input type="text" placeholder="Email" id="email" name="email"/>
-                                </div>
-                                <div className="col-xs-12">
-                                    <input type="text" placeholder="Тема" id="subject" name="subject"/>
+                                    <label htmlFor="phone">Телефон:</label>
+                                    <input type="tel" placeholder="89ХХХХХХХХХ" id="phone" name="phone"
+                                           pattern="[0-9]{11}"
+                                           required/>
                                 </div>
                                 <div className="col-xs-12">
                                     <textarea className="contact-textarea" placeholder="Сообщение" id="msg"

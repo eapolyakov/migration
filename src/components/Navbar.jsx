@@ -35,8 +35,8 @@ export default function Navbar() {
                                 <a href="#contacts">Контакты</a>
                             </li>
                         </ul>
-                    </div></div>
-
+                    </div>
+                </div>
             </div>
         </div>
 

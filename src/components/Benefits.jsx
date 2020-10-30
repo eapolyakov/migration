@@ -13,7 +13,7 @@ export default function Benefits(){
                     <div className="ways__name"><span>Этапы</span>
                         <p>Квота → РВП → ВНЖ → Продление ВНЖ → Гражданство</p></div>
                     <div className="ways__name"><span>Сроки</span>
-                        <p>Минимум 6–7 лет</p></div>
+                        <p>От 6 месяцев до 2 лет</p></div>
                 </div>
                 <div className="ways__item d-flex">
                     <div className="ways__name">
@@ -23,7 +23,7 @@ export default function Benefits(){
                     <div className="ways__name"><span className="ways__mobile">Этапы</span>
                         <p>РВП → ВНЖ → Гражданство</p></div>
                     <div className="ways__name"><span className="ways__mobile">Сроки</span>
-                        <p>От 2,5 до 3,5 лет</p></div>
+                        <p>От 6 месяцев до года</p></div>
                 </div>
                 <div className="ways__item d-flex">
                     <div className="ways__name">
@@ -34,7 +34,7 @@ export default function Benefits(){
                         <p>НРЯ → ВНЖ → Выход из гражданства (за исключением граждан Украины и Таджикистана) →
                             Гражданство</p></div>
                     <div className="ways__name"><span className="ways__mobile">Сроки</span>
-                        <p>От 1 до 5 лет</p></div>
+                        <p>От 3 до 6 месяцев</p></div>
                 </div>
             </div>
         </div>

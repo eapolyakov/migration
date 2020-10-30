@@ -18,23 +18,24 @@ import Footer from "./components/Footer";
 import Quiz from "./components/Quiz";
 import Preloader from "./components/Preloader";
 import ScrollUpButton from "react-scroll-up-button";
+import PopUp from "./components/PopUp";
 
 
 function App() {
     return (<BrowserRouter>
             <Preloader/>
+            <PopUp/>
             <Header/>
             <Slider/>
             <WhoWeAre/>
-            <Faq/>
             <Stats/>
-            <Benefits/>
+            <Faq/>
             <Services/>
+            <Benefits/>
             <Steps/>
             <Quiz/>
             <Pricing/>
             <BenefitsAbout/>
-            <Video/>
             <Testimonials/>
             <Contacts/>
             <Footer/>

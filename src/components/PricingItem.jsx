@@ -8,7 +8,7 @@ export default function PricingItem(props){
             <p className="text-justify">
                 {props.p}
             </p>
-            <button>Получить</button>
+            <a href="#contacts"><button>Получить</button></a>
         </div>
     </div>
 }

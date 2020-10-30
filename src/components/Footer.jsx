@@ -15,32 +15,35 @@ export default function Footer(){
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-xs-12 col">
+                    <div className="col-md-4 col-sm-6 col-xs-12">
                         <div className="footer-widget footer-menu">
                             <h2>Навигация</h2>
-                            <ul>
-                                <li>
-                                    <a href="#about">О нас<i className=""></i></a>
-                                </li>
-                                <li>
-                                    <a href="#services">Услуги <i className=""></i></a>
-                                </li>
-                                <li>
-                                    <a href="#faq">Как стать гражданином <i className=""></i></a>
-                                </li>
-                                <li>
-                                    <a href="#quiz">Этапы работы <i className=""></i></a>
-                                </li>
-                                <li>
-                                    <a href="#pricing">Цены <i className=""></i></a>
-                                </li>
-                                <li>
-                                    <a href="#benefits">Наши преимущества <i className=""></i></a>
-                                </li>
-                                <li>
-                                    <a href="#contacts">Контакты</a>
-                                </li>
-                            </ul>
+                            <div className="col-md-6 col-sm-6 col-xs-12">
+                                <ul>
+                                    <li>
+                                        <a href="#about">О нас<i className=""></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#services">Услуги <i className=""></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#quiz">Этапы работы <i className=""></i></a>
+                                    </li>
+                                 </ul>
+                            </div>
+                            <div className="col-md-6 col-sm-6 col-xs-12">
+                                <ul>
+                                    <li>
+                                        <a href="#pricing">Цены <i className=""></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#benefits">Наши преимущества <i className=""></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#faq">Как стать гражданином <i className=""></i></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6 col-xs-12 col">
@@ -49,20 +52,19 @@ export default function Footer(){
                             <form action="mail.php" method="post" id="cf">
                                 <div className="row">
                                     <div className="col-sm-6 col-xs-12">
-                                        <input type="text" placeholder="Name" id="fname" name="fname"/>
+                                        <input type="text" placeholder="Имя" id="fname" name="fname"/>
                                     </div>
                                     <div className="col-sm-6 col-xs-12">
-                                        <input type="text" placeholder="Email" id="email" name="email"/>
+                                        <input type="tel" placeholder="Телефон" id="phone" name="phone"
+                                               pattern="[0-9]{11}"
+                                               required/>
                                     </div>
                                     <div className="col-xs-12">
-                                        <input type="text" placeholder="Subject" id="subject" name="subject"/>
-                                    </div>
-                                    <div className="col-xs-12">
-                                    <textarea className="contact-textarea" placeholder="Message" id="msg"
+                                    <textarea className="contact-textarea" placeholder="Сообщение" id="msg"
                                               name="msg"></textarea>
                                     </div>
                                     <div className="col-xs-12">
-                                        <button id="submit" className="cont-submit btn-contact bg-danger" name="submit">SEND MESSAGE
+                                        <button id="submit" className="cont-submit btn-contact" name="submit">Отправить
                                         </button>
                                     </div>
                                 </div>

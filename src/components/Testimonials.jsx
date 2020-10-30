@@ -27,8 +27,7 @@ export default function Testimonials(){
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">
                         <h2>Отзывы наших клиентов</h2>
-                        <p>The majority have suffered alteration in some form, by injected humour, or randomised. by
-                            injected humour, or randomised.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -39,60 +38,28 @@ export default function Testimonials(){
                         {...options}
                     >
                         <TestimonialsItemLeft
-                            img="assets/images/client/2.jpg"
-                            alt="client_1"
-                            name="Bob Brock"
-                            counrty="Belgium"
-                            star1={<i className="fa fa-star"/>}
-                            star2={<i className="fa fa-star"/>}
-                            star3={<i className="fa fa-star"/>}
-                            star4={<i className="fa fa-star"/>}
-                            star5={<i className="fa fa-star"/>}
-                            p="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-                                        necessary, making this the first true generator on the Internet. It uses a
-                                        dictionary of over 200 Latin words"
+                            img=""
+                            alt=""
+                            name=""
+                            counrty=""
+                            star1=""
+                            star2=""
+                            star3=""
+                            star4=""
+                            star5=""
+                            p="Здесь будет отзыв"
                         />
                         <TestimonialsItemLeft
-                            img="assets/images/client/2.jpg"
-                            alt="client_1"
-                            name="Robert Kyle"
-                            counrty="Belgium"
-                            star1={<i className="fa fa-star"/>}
-                            star2={<i className="fa fa-star"/>}
-                            star3={<i className="fa fa-star"/>}
-                            star4={<i className="fa fa-star"/>}
-                            star5={<i className="fa fa-star"/>}
-                            p="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-                                        necessary, making this the first true generator on the Internet. It uses a
-                                        dictionary of over 200 Latin words"
-                        />
-                        <TestimonialsItemLeft
-                            img="assets/images/client/2.jpg"
-                            alt="client_1"
-                            name="Robert Kyle"
-                            counrty="Belgium"
-                            star1={<i className="fa fa-star"/>}
-                            star2={<i className="fa fa-star"/>}
-                            star3={<i className="fa fa-star"/>}
-                            star4={<i className="fa fa-star"/>}
-                            star5={<i className="fa fa-star"/>}
-                            p="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-                                        necessary, making this the first true generator on the Internet. It uses a
-                                        dictionary of over 200 Latin words"
-                        />
-                        <TestimonialsItemLeft
-                            img="assets/images/client/2.jpg"
-                            alt="client_1"
-                            name="Robert Kyle"
-                            counrty="Belgium"
-                            star1={<i className="fa fa-star"/>}
-                            star2={<i className="fa fa-star"/>}
-                            star3={<i className="fa fa-star"/>}
-                            star4={<i className="fa fa-star"/>}
-                            star5={<i className="fa fa-star"/>}
-                            p="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-                                        necessary, making this the first true generator on the Internet. It uses a
-                                        dictionary of over 200 Latin words"
+                            img=""
+                            alt=""
+                            name=""
+                            counrty=""
+                            star1=""
+                            star2=""
+                            star3=""
+                            star4=""
+                            star5=""
+                            p="Здесь будет отзыв"
                         />
                     </OwlCarousel>
                 </div>

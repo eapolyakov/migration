@@ -117,12 +117,10 @@ export default function Faq(){
                                     <input type="text" placeholder="Имя" id="fname" name="fname"/>
                                 </div>
                                 <div className="col-xs-12">
-                                    <span>Email</span>
-                                    <input type="text" placeholder="Email" id="email" name="email"/>
-                                </div>
-                                <div className="col-xs-12">
-                                    <span>Тема сообщения</span>
-                                    <input type="text" placeholder="Тема" id="subject" name="subject"/>
+                                    <span>Телефон</span>
+                                    <input type="tel" placeholder="89ХХХХХХХХХ" id="phone" name="phone"
+                                           pattern="[0-9]{11}"
+                                           required/>
                                 </div>
                                 <div className="col-xs-12">
                                     <span>Ваш вопрос</span>
