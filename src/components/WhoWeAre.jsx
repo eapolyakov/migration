@@ -6,7 +6,7 @@ export default function WhoWeAre() {
             <div className="row">
                 <div className="col-md-6 col-xs-12 wow fadeInLeft">
                     <div className="about-img black-opacity">
-                        <img src="assets/images/about.jpg" alt="Welcome"/>
+                        <img src="assets/images/skill.jpg" alt="Welcome"/>
                     </div>
                 </div>
                 <div className="col-md-6 col-xs-12 wow fadeInRight">

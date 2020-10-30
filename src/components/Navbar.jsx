@@ -23,7 +23,7 @@ export default function Navbar() {
                                 <a href="#faq">Как стать гражданином <i className=""></i></a>
                             </li>
                             <li>
-                                <a href="#quiz">Этапы работы <i className=""></i></a>
+                                <a href="#steps">Как мы работаем <i className=""></i></a>
                             </li>
                             <li>
                                 <a href="#pricing">Цены <i className=""></i></a>

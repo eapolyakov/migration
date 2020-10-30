@@ -3,7 +3,7 @@ import React from 'react';
 export default function SliderItem(props){
     return <div className="item">
         <img src={props.img} alt={props.alt} className="slider"/>
-        <div className="slider-content text-center">
+        <div className="slider-content text-center black-opacity">
             <div className="table">
                 <div className="table-cell">
                     <div className="container">

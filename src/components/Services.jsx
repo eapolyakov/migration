@@ -34,19 +34,19 @@ export default function Services(){
             </div>
             <div className="row">
                 <ServicesItem
-                    img="assets/images/service/1.jpg"
+                    img="assets/images/service/4.jpg"
                     alt="service_1"
                     h3={"НРЯ"}
                     p={"Помощь в получении статуса НРЯ (носителя русского языка)"}
                 />
                 <ServicesItem
-                    img="assets/images/service/2.jpg"
+                    img="assets/images/service/5.jpg"
                     alt="service_1"
                     h3={"Сопровождение"}
                     p={"Эксклюзивное сопровождение получения ГРАЖДАНСТВА РФ"}
                 />
                 <ServicesItem
-                    img="assets/images/service/3.jpg"
+                    img="assets/images/service/6.jpg"
                     alt="service_1"
                     h3={"Консультации"}
                     p={"Заполнение заявлений любой сложности"}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Steps(){
-    return <div className="featured-area ptb-30">
+    return <div className="featured-area ptb-30" id="steps">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">

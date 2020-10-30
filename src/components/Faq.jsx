@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from "./Form";
 
 export default function Faq(){
     return <div className="faq-area ptb-100" id="faq">
@@ -110,30 +111,7 @@ export default function Faq(){
                 <div className="col-md-6 col-xs-12 fadeInRight wow">
                     <div className="faq-form form-style">
                         <div className="cf-msg"></div>
-                        <form action="mail.php" method="post" id="cf">
-                            <div className="row">
-                                <div className="col-xs-12">
-                                    <span>Имя</span>
-                                    <input type="text" placeholder="Имя" id="fname" name="fname"/>
-                                </div>
-                                <div className="col-xs-12">
-                                    <span>Телефон</span>
-                                    <input type="tel" placeholder="89ХХХХХХХХХ" id="phone" name="phone"
-                                           pattern="[0-9]{11}"
-                                           required/>
-                                </div>
-                                <div className="col-xs-12">
-                                    <span>Ваш вопрос</span>
-                                    <textarea className="contact-textarea" placeholder="Введите сообщение" id="msg"
-                                              name="msg"></textarea>
-                                </div>
-                                <div className="col-xs-12">
-                                    <button id="submit" className="cont-submit btn-contact btn-style"
-                                            name="submit">Отправить
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                       <Form/>
                     </div>
                 </div>
             </div>

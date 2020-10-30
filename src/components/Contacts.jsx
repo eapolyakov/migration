@@ -1,5 +1,6 @@
 import React from 'react';
 import YMap from "./Map";
+import Form from "./Form";
 
 export default function Contacts(){
     return <div className="contact-area ptb-30" id="contacts">
@@ -14,32 +15,15 @@ export default function Contacts(){
             </div>
             <div className="row">
                 <div className="col-md-4">
+                    <YMap/>
+                </div>
+                <div className="col-md-4">
                     <div className="contact-wrap form-style">
                         <div className="cf-msg"></div>
-                        <form action="mail.php" method="post" id="cf">
-                            <div className="row">
-                                <div className="col-sm-6 col-xs-12">
-                                    <label htmlFor="phone">Введите ваше имя:</label>
-                                    <input type="text" placeholder="Имя" id="fname" name="fname"/>
-                                </div>
-                                <div className="col-sm-6 col-xs-12">
-                                    <label htmlFor="phone">Телефон:</label>
-                                    <input type="tel" placeholder="89ХХХХХХХХХ" id="phone" name="phone"
-                                           pattern="[0-9]{11}"
-                                           required/>
-                                </div>
-                                <div className="col-xs-12">
-                                    <textarea className="contact-textarea" placeholder="Сообщение" id="msg"
-                                              name="msg"></textarea>
-                                </div>
-                                <div className="col-xs-12">
-                                    <button id="submit" className="cont-submit btn-danger" name="submit">Отправить
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                        <Form/>
                     </div>
                 </div>
+
                 <div className="col-md-4">
                     <div className="contact-wrap">
                         <ul>
@@ -62,9 +46,6 @@ export default function Contacts(){
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div className="col-md-4">
-                    <YMap/>
                 </div>
             </div>
         </div>
