@@ -19,14 +19,15 @@ import Quiz from "./components/Quiz";
 import Preloader from "./components/Preloader";
 import ScrollUpButton from "react-scroll-up-button";
 import PopUp from "./components/PopUp";
+import Test from "./components/Test";
 
 
 function App() {
     return (<BrowserRouter>
             <Preloader/>
-            <PopUp/>
             <Header/>
             <Slider/>
+            <Test/>
             <WhoWeAre/>
             <Stats/>
             <Faq/>
