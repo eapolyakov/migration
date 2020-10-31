@@ -29,12 +29,11 @@ function App() {
             <WhoWeAre/>
             <Stats/>
             <Faq/>
-            <Services/>
+            <BenefitsAbout/>
             <Pricing/>
             <Benefits/>
             <Steps/>
             <Quiz/>
-            <BenefitsAbout/>
             <Testimonials/>
             <Contacts/>
             <Footer/>

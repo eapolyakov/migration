@@ -1,5 +1,6 @@
 import React from 'react';
 import PricingItem from "./PricingItem";
+import ServicesItem from "./ServicesItem";
 
 export default function Pricing(){
     return <div className="pricing-table-area">
@@ -16,26 +17,33 @@ export default function Pricing(){
                 <PricingItem
                     h3="Квота на РВП"
                     price="от 15000 руб."
+                    p={"Помощь в получении правительственной квоты в РФ"}
+
                 />
                 <PricingItem
                     h3="РВП"
                     price="от 20000 руб."
+                    p={"Разрешение на временное проживание в РФ"}
                 />
                 <PricingItem
                     h3="ВНЖ"
                     price=" от 25000 руб."
+                    p={"Вид на жительство в Росйской Федерации"}
                 />
                 <PricingItem
                     h3="Гражданство"
                     price="от 18000 руб."
+                    p={"Эксклюзивное сопровождение получения ГРАЖДАНСТВА РФ"}
                 />
                 <PricingItem
                     h3="НРЯ"
                     price=" от 13000 руб."
+                    p={"Помощь в получении статуса НРЯ (носителя русского языка)"}
                 />
                 <PricingItem
                     h3="Консультация"
                     price="БЕСПЛАТНО"
+                    p={"Заполнение заявлений любой сложности"}
                 />
             </div>
         </div>

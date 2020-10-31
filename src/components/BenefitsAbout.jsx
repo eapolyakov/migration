@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function BenefitsAbout(){
-    return <section className="about-area pb-140" id="benefits">
+    return <section className="about-area pb-30" id="benefits">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">

@@ -17,9 +17,6 @@ export default function Navbar() {
                                 <a href="#about">О нас<i className=""></i></a>
                             </li>
                             <li>
-                                <a href="#services">Услуги <i className=""></i></a>
-                            </li>
-                            <li>
                                 <a href="#faq">Ответы на вопросы <i className=""></i></a>
                             </li>
                             <li>

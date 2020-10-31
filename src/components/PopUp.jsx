@@ -19,7 +19,7 @@ const customStyles = {
         zIndex: '99'
     }
 };
-export default class Test extends Component {
+export default class PopUp extends Component {
     constructor(props) {
         super(props);
         this.state = {modalIsOpen: false};
@@ -48,10 +48,6 @@ export default class Test extends Component {
         // opportunity to validate something and keep the modal open even if it
         // requested to be closed
         this.setState({modalIsOpen: false});
-    }
-
-    handleSaveClicked = (e) => {
-        alert('Save button was clicked');
     }
 
     render() {

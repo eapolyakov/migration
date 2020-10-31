@@ -70,49 +70,51 @@ export default function Quiz() {
             setShowScore(true);
         }
     };
-    return (<section className="service-area pb-100">
-        <div className="container ptb-30" id="quiz">
-            <div className="row">
-                <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
-                    <div className="section-title text-center">
-                        <h2>Сможете ли Вы стать гражданином Росиии?</h2>
-                        <p>Ответьте на пять вопросов и узнайте!</p>
+    return (
+        <section className="service-area pb-100">
+            <div className="container ptb-30" id="quiz">
+                <div className="row">
+                    <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
+                        <div className="section-title text-center">
+                            <h2>Сможете ли Вы стать гражданином Росиии?</h2>
+                            <p>Ответьте на пять вопросов и узнайте!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="quiz col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInDown">
-                <div className="row">
-                    {showScore ? (
-                        <div className='score-section'>
+                <div className="quiz col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInDown">
+                    <div className="row">
+                        {showScore ? (
+                            <div className='score-section'>
+                                <div className="container">
+                                    <div className="row">
+                                        <h4>Поздравляем! Мы сможем Вам помочь!</h4>
+                                        <h5>Оставьте заявку и мы перезвоним!</h5>
+                                            <FormModal/>
+                                    </div>
+                                </div>
+                            </div>
+                        ) : (
+                           <>
+                        <div className='question-section'>
                             <div className="container">
-                                <div className="row">
-                                    <h4>Поздравляем! Мы сможем Вам помочь!</h4>
-                                        <FormModal/>
+                                <div className='question-count'>
+                                    <span>Вопрос {currentQuestion + 1}</span> из {questions.length}
                                 </div>
                             </div>
                         </div>
-                    ) : (
-                       <>
-                    <div className='question-section'>
                         <div className="container">
-                            <div className='question-count'>
-                                <span>Вопрос {currentQuestion + 1}</span> из {questions.length}
-                            </div>
+                            <div className='question-text'>{questions[currentQuestion].questionText}</div>
                         </div>
-                    </div>
-                    <div className="container">
-                        <div className='question-text'>{questions[currentQuestion].questionText}</div>
-                    </div>
-                    <div className='answer-section'>
-                        {questions[currentQuestion].answerOptions.map((answerOption) => (
-                            <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-                        ))}
-                    </div>
-                     </>
-                    )}
-                 </div>
+                        <div className='answer-section'>
+                            {questions[currentQuestion].answerOptions.map((answerOption) => (
+                                <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                            ))}
+                        </div>
+                         </>
+                        )}
+                     </div>
+                </div>
             </div>
-        </div>
         </section>
     )
 }

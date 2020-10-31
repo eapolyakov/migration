@@ -23,7 +23,7 @@ const options = {
 };
 
 export default function Slider(){
-    return <section className="slider-area">
+    return <section className="slider-area parallax">
             <OwlCarousel
                 className="owl-stage-outer"
                 {...options}

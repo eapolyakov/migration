@@ -1,5 +1,4 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
 
 export default function HeaderContacts(){
     return <div className="header-middle bg-2">
@@ -7,7 +6,7 @@ export default function HeaderContacts(){
             <div className="row">
                 <div className="col-md-3 hidden-sm hidden-xs">
                     <div className="logo">
-                        <h1>ПроГражданство.РФ</h1>
+                        <h2>ПроГражданство.РФ</h2>
                     </div>
                 </div>
                 <div className="col-md-9 col-xs-12">

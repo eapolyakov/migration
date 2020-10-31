@@ -24,10 +24,10 @@ export default function Footer(){
                                         <a href="#about">О нас<i className=""></i></a>
                                     </li>
                                     <li>
-                                        <a href="#services">Услуги <i className=""></i></a>
+                                        <a href="#faq">Ответы на вопросы <i className=""></i></a>
                                     </li>
                                     <li>
-                                        <a href="#quiz">Этапы работы <i className=""></i></a>
+                                        <a href="#steps">Как мы работаем <i className=""></i></a>
                                     </li>
                                  </ul>
                             </div>
@@ -37,10 +37,10 @@ export default function Footer(){
                                         <a href="#pricing">Цены <i className=""></i></a>
                                     </li>
                                     <li>
-                                        <a href="#benefits">Наши преимущества <i className=""></i></a>
+                                        <a href="#benefits">Преимущества <i className=""></i></a>
                                     </li>
                                     <li>
-                                        <a href="#faq">Как стать гражданином <i className=""></i></a>
+                                        <a href="#contacts">Контакты</a>
                                     </li>
                                 </ul>
                             </div>
