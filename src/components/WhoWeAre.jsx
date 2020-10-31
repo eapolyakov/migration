@@ -4,6 +4,12 @@ export default function WhoWeAre() {
     return <section className="about-area ptb-30" id="about">
         <div className="container">
             <div className="row">
+                <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12  wow fadeInUp">
+                    <div className="section-title text-center">
+                        <h2>О нас</h2>
+                        <p></p>
+                    </div>
+                </div>
                 <div className="col-md-6 col-xs-12 wow fadeInLeft">
                     <div className="about-img black-opacity">
                         <img src="assets/images/skill.jpg" alt="Welcome"/>
@@ -11,7 +17,6 @@ export default function WhoWeAre() {
                 </div>
                 <div className="col-md-6 col-xs-12 wow fadeInRight">
                     <div className="about-wrap">
-                        <h2>О нас</h2>
                         <p>Мы это команда единомышленников и партнеров, объединенных целью оказания качественной помощи
                             мигрантам.
                             Наш опыт позволяет обеспечивать основательный подход к решению юридических вопросов.

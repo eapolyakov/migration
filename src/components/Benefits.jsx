@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Benefits(){
-    return <section className="benefits-area ptb-140">
+    return <section className="benefits-area ptb-100">
         <div className="container">
             <h4 className="_normal" id="ways">Сравните существующие способы получения гражданства</h4>
             <div className="ways">

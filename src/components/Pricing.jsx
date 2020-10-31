@@ -2,8 +2,8 @@ import React from 'react';
 import PricingItem from "./PricingItem";
 
 export default function Pricing(){
-    return <div className="pricing-table-area" id="pricing">
-        <div className="container">
+    return <div className="pricing-table-area">
+        <div className="container" id="pricing">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">

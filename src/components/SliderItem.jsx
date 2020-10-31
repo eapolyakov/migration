@@ -1,7 +1,9 @@
 import React from 'react';
 
 export default function SliderItem(props){
-    return <div className="item">
+    return <div className="slider-active2 slider-next-prev-style">
+        <div className="slider-items">
+    <div className="item">
         <img src={props.img} alt={props.alt} className="slider"/>
         <div className="slider-content text-center black-opacity">
             <div className="table">
@@ -20,6 +22,8 @@ export default function SliderItem(props){
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
         </div>
     </div>
 }

@@ -18,7 +18,6 @@ import Quiz from "./components/Quiz";
 import Preloader from "./components/Preloader";
 import ScrollUpButton from "react-scroll-up-button";
 import PopUp from "./components/PopUp";
-import Test from "./components/Test";
 
 
 function App() {
@@ -26,15 +25,15 @@ function App() {
             <Preloader/>
             <Header/>
             <Slider/>
-            <Test/>
+            <PopUp/>
             <WhoWeAre/>
             <Stats/>
             <Faq/>
             <Services/>
+            <Pricing/>
             <Benefits/>
             <Steps/>
             <Quiz/>
-            <Pricing/>
             <BenefitsAbout/>
             <Testimonials/>
             <Contacts/>

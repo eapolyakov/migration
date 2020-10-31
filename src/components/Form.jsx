@@ -52,8 +52,6 @@ export default class Form extends React.Component {
     handleSendMail(e) {
         e.preventDefault();
         let userData = this.state.SendMail;
-
-
         fetch('http://edu.eapolyak.beget.tech/sendMail',{
             method: "POST",
             body: JSON.stringify(userData),
@@ -66,6 +64,7 @@ export default class Form extends React.Component {
                 console.log("Successful" + data);
             })
         })
+        alert("Сообщение отправлено!")
     }
 
     render() {

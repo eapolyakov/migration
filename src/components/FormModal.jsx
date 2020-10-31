@@ -53,6 +53,7 @@ export default class FormModal extends React.Component {
                 console.log("Successful" + data);
             })
         })
+        alert("Сообщение отправлено!")
     }
 
     render() {

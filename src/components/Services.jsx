@@ -2,8 +2,8 @@ import React from 'react';
 import ServicesItem from "./ServicesItem";
 
 export default function Services(){
-    return <section className="service-area pb-30" id="services">
-        <div className="container">
+    return <section className="service-area pb-30">
+        <div className="container" id="services">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
                     <div className="section-title text-center">
@@ -23,7 +23,7 @@ export default function Services(){
                     img="assets/images/service/2.jpg"
                     alt="service_1"
                     h3={"ВНЖ"}
-                    p={"Вид на жительство в РФ"}
+                    p={"Вид на жительство в Росйской Федерации"}
                 />
                 <ServicesItem
                     img="assets/images/service/3.jpg"
