@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import QuizForm from "./QuizForm";
+import FormModal from "./FormModal";
 
 export default function Quiz() {
     const questions = [
@@ -87,7 +87,7 @@ export default function Quiz() {
                             <div className="container">
                                 <div className="row">
                                     <h4>Поздравляем! Мы сможем Вам помочь!</h4>
-                                        <QuizForm/>
+                                        <FormModal/>
                                 </div>
                             </div>
                         </div>

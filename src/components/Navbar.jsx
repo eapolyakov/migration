@@ -20,7 +20,7 @@ export default function Navbar() {
                                 <a href="#services">Услуги <i className=""></i></a>
                             </li>
                             <li>
-                                <a href="#faq">Как стать гражданином <i className=""></i></a>
+                                <a href="#faq">Ответы на вопросы <i className=""></i></a>
                             </li>
                             <li>
                                 <a href="#steps">Как мы работаем <i className=""></i></a>
@@ -29,7 +29,7 @@ export default function Navbar() {
                                 <a href="#pricing">Цены <i className=""></i></a>
                             </li>
                             <li>
-                                <a href="#benefits">Наши преимущества <i className=""></i></a>
+                                <a href="#benefits">Преимущества <i className=""></i></a>
                             </li>
                             <li>
                                 <a href="#contacts">Контакты</a>

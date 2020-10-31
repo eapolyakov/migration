@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import FormModal from "./FormModal";
 
@@ -23,11 +22,26 @@ const customStyles = {
 export default class Test extends Component {
     constructor(props) {
         super(props);
-        this.state = { modalIsOpen: false };
+        this.state = {modalIsOpen: false};
+        this.handleOpenModal = this.handleOpenModal.bind(this);
+        this.handleCloseModal = this.handleCloseModal.bind(this);
     }
 
-    openModal = () => {
+    componentDidMount() {
+        this.timerID = setTimeout(() =>
+            this.handleOpenModal(),15000);
+    }
+
+    componentWillUnmount() {
+        clearTimeout(this.timerID);
+    }
+
+    handleOpenModal() {
         this.setState({modalIsOpen: true});
+    }
+
+    handleCloseModal() {
+        this.setState({modalIsOpen: false});
     }
 
     handleModalCloseRequest = () => {
@@ -36,24 +50,27 @@ export default class Test extends Component {
         this.setState({modalIsOpen: false});
     }
 
+    handleSaveClicked = (e) => {
+        alert('Save button was clicked');
+    }
+
     render() {
         return (
             <div>
-                <button type="button" className="btn btn-primary" onClick={this.openModal}>Open Modal</button>
                 <Modal
+                    className=""
                     style={customStyles}
                     closeTimeoutMS={150}
                     isOpen={this.state.modalIsOpen}
                     onRequestClose={this.handleModalCloseRequest}
                 >
-                    <button className="button-modal btn-default" onClick={this.handleModalCloseRequest}>Х</button>
+                    <button className="button-modal btn-default" onClick={this.handleCloseModal}>Х</button>
                     <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
                         <div className="section-title text-center">
                             <h2>Мы Вам перезвоним!</h2>
                             <p>Оставьте Ваши контакты!</p>
                         </div>
                         <FormModal/>
-
                     </div>
                 </Modal>
             </div>

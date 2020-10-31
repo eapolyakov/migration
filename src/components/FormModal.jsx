@@ -56,8 +56,9 @@ export default class FormModal extends React.Component {
     }
 
     render() {
-        return (<form className="container-fluid" onSubmit={this.handleSendMail}>
-                <Input inputType={'text'}
+        return (<form className="container" onSubmit={this.handleSendMail}>
+                <Input
+                    inputType={'text'}
                        name= {'name'}
                        title= {''}
                        value={this.state.SendMail.name}
@@ -65,7 +66,8 @@ export default class FormModal extends React.Component {
                        handleChange = {this.handleFullName}
 
                 />
-                <Input inputType={'phone'}
+                <Input
+                    inputType={'phone'}
                        name={'phone'}
                        title= {''}
                        value={this.state.SendMail.phone}

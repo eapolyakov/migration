@@ -29,33 +29,34 @@ export default function Slider(){
                 {...options}
             >
                 <SliderItem
-                    img="assets/images/portfolio/portfolio3/1.jpg"
+                    img="assets/images/slider/m1.jpg"
                     alt={"гражданство_РФ"}
-                    h2={"Стать гражданином России"}
-                    p={""}
+                    h2={"Гражданство России"}
+                    p={"Быстро безопасно надёжно"}
 
                 />
                 <SliderItem
-                    img="assets/images/portfolio/portfolio3/2.jpg"
+                    img="assets/images/slider/m4.jpg"
                     alt={"гражданство_РФ"}
-                    h2={"Получить гражданство России"}
-                    p={""}
+                    h2={"Вид на жительство"}
+                    p={"Быстро безопасно надёжно"}
 
                 />
                 <SliderItem
-                    img="assets/images/portfolio/portfolio3/3.jpg"
+                    img="assets/images/slider/m2.jpg"
                     alt={"гражданство_РФ"}
-                    h2={"Получить вид на жительство"}
-                    p={""}
+                    h2={"Услуги мигрантам"}
+                    p={"Быстро безопасно надёжно"}
 
                 />
                 <SliderItem
-                    img="assets/images/portfolio/portfolio3/4.jpg"
+                    img="assets/images/slider/m3.jpg"
                     alt={"гражданство_РФ"}
-                    h2={"Стать насителем русского языка"}
-                    p={""}
+                    h2={"Временное пребывание"}
+                    p={"Быстро безопасно надёжно"}
 
                 />
+
             </OwlCarousel>
         </section>
 

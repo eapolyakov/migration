@@ -12,7 +12,6 @@ import Pricing from "./components/Pricing";
 import BenefitsAbout from "./components/BenefitsAbout";
 import Faq from "./components/Faq";
 import Testimonials from "./components/Testimonials";
-import Video from "./components/Video";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Quiz from "./components/Quiz";
