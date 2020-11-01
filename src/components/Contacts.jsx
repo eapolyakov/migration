@@ -14,13 +14,13 @@ export default function Contacts(){
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <div className="contact-wrap form-style">
                         <div className="cf-msg"></div>
                         <Form/>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <div className="contact-wrap">
                         <ul>
                             <li>
@@ -43,10 +43,11 @@ export default function Contacts(){
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-4">
+            </div>
+            <div className="row">
+                <div className="col-xs-12">
                     <YMap/>
                 </div>
-
             </div>
         </div>
     </div>

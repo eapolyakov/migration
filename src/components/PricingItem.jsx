@@ -33,7 +33,7 @@ export default function PricingItem(props) {
 
     return (
         <div>
-            <div className="col-md-4 col-sm-6 col-xs-12">
+            <div className="col-md-4 col-sm-6 col-xs-12 " onClick={openModal}>
                 <div className="pricing-wrap mb-30">
                     <h3>{props.h3}</h3>
                     <h4>{props.price}</h4>

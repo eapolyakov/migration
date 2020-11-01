@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Slider from "./components/Slider";
 import WhoWeAre from "./components/WhoWeAre";
 import Benefits from "./components/Benefits";
-import Services from "./components/Services";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
@@ -27,13 +26,13 @@ function App() {
             <Slider/>
             <PopUp/>
             <WhoWeAre/>
+            <Quiz/>
             <Stats/>
+            <Benefits/>
             <Faq/>
             <BenefitsAbout/>
             <Pricing/>
-            <Benefits/>
             <Steps/>
-            <Quiz/>
             <Testimonials/>
             <Contacts/>
             <Footer/>

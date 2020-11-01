@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Stats(){
     return <section className="fanfact-area parallax" data-speed="10"
-                    data-bg-image="assets/images/slider/stats1.webp">
+                    data-bg-image="assets/images/slider/sl3_1.jpeg">
         <div className="table">
             <div className="table-cell">
                 <div className="container">

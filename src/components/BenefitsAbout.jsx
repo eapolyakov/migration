@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function BenefitsAbout(){
-    return <section className="about-area pb-30" id="benefits">
+    return <section className="about-area2 pb-30" id="benefits">
         <div className="container">
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
@@ -31,7 +31,7 @@ export default function BenefitsAbout(){
                     <div className="row mt-60">
                         <div className="col-sm-6 col-xs-12 col">
                             <div className="about-items mb-30">
-                                <i className="fa fa-bank"></i>
+                                <i className="fa fa-user"></i>
                                 <h3>Индивидуальный подход</h3>
                             </div>
                         </div>
@@ -42,13 +42,13 @@ export default function BenefitsAbout(){
                             </div>
                         </div>
                         <div className="col-sm-6 col-xs-12 col">
-                            <div className="about-items">
-                                <i className="fa fa-fast-forward"></i>
+                            <div className="about-items mb-30">
+                                <i className="fa fa-clock-o"></i>
                                 <h3>Экономим Ваше время</h3>
                             </div>
                         </div>
                         <div className="col-sm-6 col-xs-12 col">
-                            <div className="about-items">
+                            <div className="about-items mb-30">
                                 <i className="fa fa-money"></i>
                                 <h3>Доступные цены</h3>
                             </div>

@@ -9,7 +9,7 @@ const mapState = {
 export default function YMap() {
     return <div>
         <YMaps>
-            <Map state={mapState} width='100%' height="400px">
+            <Map state={mapState} width='100%'>
                 <Placemark
                     modules={["geoObject.addon.balloon"]}
                     geometry={[55.753700, 37.621704]}

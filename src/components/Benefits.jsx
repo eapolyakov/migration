@@ -1,40 +1,49 @@
 import React from 'react';
 
-export default function Benefits(){
-    return <section className="benefits-area ptb-30">
+export default function Video(){
+    return <section className="benefits-area mt-100">
         <div className="container">
-            <h4 className="_normal" id="ways">Сравните существующие способы получения гражданства</h4>
-            <div className="ways">
-                <div className="ways__item d-flex">
-                    <div className="ways__name">
-                        <span>Способ</span>
-                        <p>Общие основания (квота)</p>
+            <div className="row">
+                <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 wow fadeInUp">
+                    <div className="section-title text-center">
+                        <h2>Существующие способы получения гражданства</h2>
+                        <p></p>
                     </div>
-                    <div className="ways__name"><span>Этапы</span>
-                        <p>Квота → РВП → ВНЖ → Продление ВНЖ → Гражданство</p></div>
-                    <div className="ways__name"><span>Сроки</span>
-                        <p>От 6 месяцев до 2 лет</p></div>
                 </div>
-                <div className="ways__item d-flex">
-                    <div className="ways__name">
-                        <span className="ways__mobile">Способ</span>
-                        <p>Брак, дети, родители граждане России</p>
+            </div>
+            <div className="row mt-30">
+                <div className="col">
+                    <div className="col-sm-4 col-xs-12">
+                        <div className="program-items mb-30">
+                            <p></p>
+                            <h3>Общие основания (квота)</h3>
+                            <p>Этапы</p>
+                            <h3>Квота → РВП → ВНЖ → Продление ВНЖ → Гражданство</h3>
+                            <p>Сроки</p>
+                            <h3>От 6 месяцев до 2 лет</h3>
+                        </div>
                     </div>
-                    <div className="ways__name"><span className="ways__mobile">Этапы</span>
-                        <p>РВП → ВНЖ → Гражданство</p></div>
-                    <div className="ways__name"><span className="ways__mobile">Сроки</span>
-                        <p>От 6 месяцев до года</p></div>
-                </div>
-                <div className="ways__item d-flex">
-                    <div className="ways__name">
-                        <span className="ways__mobile">Способ</span>
-                        <p>Программа носителей русского языка</p>
+                    <div className="col-sm-4 col-xs-12">
+                        <div className="program-items mb-30">
+                            <p></p>
+                            <h3>Программа носителей русского языка</h3>
+                            <p>Этапы</p>
+                            <h3>НРЯ → ВНЖ → Выход из гражданства (за исключением граждан Украины и Таджикистана) →
+                                Гражданство</h3>
+                            <p>Сроки</p>
+                            <h3>От 3 до 6 месяцев</h3>
+                        </div>
                     </div>
-                    <div className="ways__name"><span className="ways__mobile">Этапы</span>
-                        <p>НРЯ → ВНЖ → Выход из гражданства (за исключением граждан Украины и Таджикистана) →
-                            Гражданство</p></div>
-                    <div className="ways__name"><span className="ways__mobile">Сроки</span>
-                        <p>От 3 до 6 месяцев</p></div>
+                    <div className="col-sm-4 col-xs-12">
+                        <div className="program-items mb-30">
+                            <p></p>
+                            <h3>Брак, дети, родители граждане России</h3>
+                            <p>Этапы</p>
+                            <h3>РВП → ВНЖ → Гражданство</h3>
+                            <p>Сроки</p>
+                            <h3>От 6 месяцев до года</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

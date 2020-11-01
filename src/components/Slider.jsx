@@ -29,28 +29,28 @@ export default function Slider(){
                 {...options}
             >
                 <SliderItem
-                    img="assets/images/slider/m1.jpg"
-                    alt={"гражданство_РФ"}
-                    h2={"Гражданство России"}
-                    p={"Быстро безопасно надёжно"}
-
-                />
-                <SliderItem
-                    img="assets/images/slider/m4.jpg"
-                    alt={"гражданство_РФ"}
-                    h2={"Вид на жительство"}
-                    p={"Быстро безопасно надёжно"}
-
-                />
-                <SliderItem
-                    img="assets/images/slider/m2.jpg"
+                    img="assets/images/slider/sl3.jpeg"
                     alt={"гражданство_РФ"}
                     h2={"Услуги мигрантам"}
                     p={"Быстро безопасно надёжно"}
 
                 />
                 <SliderItem
-                    img="assets/images/slider/m3.jpg"
+                    img="assets/images/slider/sl1.jpeg"
+                    alt={"гражданство_РФ"}
+                    h2={"Гражданство России"}
+                    p={"Быстро безопасно надёжно"}
+
+                />
+                <SliderItem
+                    img="assets/images/slider/sl4.jpeg"
+                    alt={"гражданство_РФ"}
+                    h2={"Вид на жительство"}
+                    p={"Быстро безопасно надёжно"}
+
+                />
+                <SliderItem
+                    img="assets/images/slider/sl2.jpeg"
                     alt={"гражданство_РФ"}
                     h2={"Временное пребывание"}
                     p={"Быстро безопасно надёжно"}

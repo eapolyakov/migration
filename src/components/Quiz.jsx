@@ -25,7 +25,7 @@ export default function Quiz() {
             ],
         },
         {
-            questionText: 'Оформляли ли вы документы в Росии?',
+            questionText: 'Оформляли ли вы документы в России?',
             answerOptions: [
                 { answerText: 'Патент', isCorrect: true },
                 { answerText: 'Разрешение на временное проживание', isCorrect: false },
