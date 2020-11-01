@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default function Footer(){
     return <footer>
@@ -52,13 +53,16 @@ export default function Footer(){
         <div className="footer-bottom text-center">
             <div className="container">
                 <div className="row">
-                    <div className="col-xs-12 text-primary">
+                    <div className="col-xs-12 text-danger">
                         <script>document.write(new Date().getFullYear());</script>
                       Copyright &copy;
                         All rights reserved | This template is made with <i className="fa fa-heart-o"
                                                                             aria-hidden="true"></i> by <a
                         href="https://colorlib.com" target="_blank" style={{color: "gray"}}>Colorlib</a>
                    </div>
+                    <div className="col-xs-12 text-danger mt-5">
+                        Designed by <a href="https://WEBOCRAT.RU" style={{color: "gray"}}>WEBOCRAT</a>
+                    </div>
                 </div>
             </div>
         </div>
