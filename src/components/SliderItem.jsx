@@ -42,7 +42,7 @@ export default function SliderItem(props){
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-xs-12 col-md-8 col-md-offset-2">
-                                                <h1>{props.h2}</h1>
+                                                <h1>{props.h1}</h1>
                                                 <p>{props.p}</p>
                                                 <ul>
                                                     <li><a className="btn" href="#faq">Узнать больше</a></li>

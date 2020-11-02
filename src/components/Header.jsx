@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 
 export default function Header(){
     return <div className="header-area">
-        <Preheader/>
         <HeaderContacts/>
         <Navbar/>
     </div>

@@ -4,12 +4,10 @@ export default function HeaderContacts(){
     return <div className="header-middle bg-2">
         <div className="container">
             <div className="row">
-                <div className="col-md-3 hidden-sm hidden-xs">
-                    <div className="logo">
-                        <h2>ПроГражданство.РФ</h2>
-                    </div>
+                <div className="col-md-4">
+                    <img src="assets/images/logo.png" className="logo"/>
                 </div>
-                <div className="col-md-9 col-xs-12">
+                <div className="col-md-8 col-xs-12">
                     <div className="header-middle-right">
                         <ul>
                             <li>
