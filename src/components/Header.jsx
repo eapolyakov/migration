@@ -1,5 +1,4 @@
 import React from "react";
-import Preheader from "./Preheader";
 import HeaderContacts from "./HeaderContacts";
 import Navbar from "./Navbar";
 

@@ -24,7 +24,7 @@ function App() {
             <Preloader/>
             <Header/>
             <Slider/>
-
+            <PopUp/>
             <WhoWeAre/>
             <Quiz/>
             <Stats/>
