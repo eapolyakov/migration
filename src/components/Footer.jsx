@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 
 export default function Footer(){
     return <footer>
@@ -33,9 +32,9 @@ export default function Footer(){
                     <div className="col-md-6 col-sm-6 col-xs-12">
                         <div className="footer-widget footer-logo">
                             <img src="assets/images/logo.png" className="logo-footer"/>
-                            <p>г. Москва, Красная площадь, д. 1</p>
+                            <p>109316, г. Москва, Волгоградский пр-т, д.32, к.8, офис 27</p>
                             <ul>
-                                <a href="tel:+79261111111"><li><i className="fa fa-phone"></i> +7 926 111 11 11</li></a>
+                                <a href="tel:+79309111770"><li><i className="fa fa-phone"></i>8(930)911-17-70</li></a>
                                 <a href="mailto:prograzhdanstvo@yandex.ru"><li><i className="fa fa-envelope"></i>prograzhdanstvo@yandex.ru</li></a>
                             </ul>
                         </div>
@@ -54,7 +53,7 @@ export default function Footer(){
                         href="https://colorlib.com" target="_blank" style={{color: "gray"}}>Colorlib</a>
                    </div>
                     <div className="col-xs-12 text-danger mt-5">
-                        Designed by <a href="https://WEBOCRAT.RU" style={{color: "gray"}}>WEBOCRAT</a>
+                        Powered by <a href="https://webecrat.ru" style={{color: "gray"}}>WEBOCRAT</a>
                     </div>
                 </div>
             </div>

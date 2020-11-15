@@ -2,8 +2,8 @@ import React from "react";
 import {Map, YMaps, Placemark, ZoomControl} from 'react-yandex-maps';
 
 const mapState = {
-    center: [55.753700, 37.621704],
-    zoom: 13
+    center: [55.723891, 37.688557],
+    zoom: 16
 };
 
 export default function YMap() {
@@ -12,7 +12,7 @@ export default function YMap() {
             <Map state={mapState} width='100%'>
                 <Placemark
                     modules={["geoObject.addon.balloon"]}
-                    geometry={[55.753700, 37.621704]}
+                    geometry={[55.723891, 37.688557]}
                     properties={{
                         balloonContentHeader: "ПроГражданство.РФ",
                     }}

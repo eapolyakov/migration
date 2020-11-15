@@ -33,8 +33,8 @@ export default function HeaderContacts(){
                                     <i className="fa fa-phone"></i>
                                 </div>
                                 <div className="contact-info">
-                                    <a href="tel:+79261111111"><p>Позвоните нам</p>
-                                        <span>+79261111111</span></a>
+                                    <a href="tel:+79309111770"><p>Позвоните нам</p>
+                                        <span>8(930)911-17-70</span></a>
                                 </div>
                             </li>
                         </ul>

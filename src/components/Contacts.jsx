@@ -25,7 +25,7 @@ export default function Contacts(){
                         <ul>
                             <li>
                                 <i className="fa fa-phone"></i>
-                                <p>+842 1544 2554</p>
+                                <p><a href="tel:+79309111770" style={{color: "white"}}>8(930)911-17-70</a></p>
                             </li>
                             <li>
                                 <i className="fa fa-envelope"></i>
@@ -34,11 +34,11 @@ export default function Contacts(){
                             </li>
                             <li>
                                 <i className="fa fa-whatsapp"></i>
-                                <p>15455 54564866 3554</p>
+                                <p><a href="https://wa.me/79309111770?text=Сообщение%20с%20сайта" style={{color: "white"}}>Написать в WhatsApp</a></p>
                             </li>
                             <li>
                                 <i className="fa fa-location-arrow"></i>
-                                Москва Кремль
+                                109316, г. Москва, Волгоградский пр-т, д.32, к.8, офис 27
                             </li>
                         </ul>
                     </div>
