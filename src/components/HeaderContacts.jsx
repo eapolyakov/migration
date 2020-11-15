@@ -5,14 +5,14 @@ export default function HeaderContacts(){
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
-                    <img src="assets/images/logo.png" className="logo"/>
+                    <img src="assets/images/logo.png" className="logo" alt="logotip"/>
                 </div>
                 <div className="col-md-8 col-xs-12">
                     <div className="header-middle-right">
                         <ul>
                             <li>
                                 <div className="contact-icon">
-                                    <i className="fa fa-clock-o"></i>
+                                    <i className="fa fa-clock-o"/>
                                 </div>
                                 <div className="contact-info">
                                     <a href="#contacts"><p>ПН - ПТ 10-18</p>
@@ -21,7 +21,7 @@ export default function HeaderContacts(){
                             </li>
                             <li>
                                 <div className="contact-icon">
-                                    <i className="fa fa-envelope"></i>
+                                    <i className="fa fa-envelope"/>
                                 </div>
                                 <div className="contact-info">
                                     <a href="mailto:prograzhdanstvo@yandex.ru"><p>Напишите нам</p>
@@ -30,7 +30,7 @@ export default function HeaderContacts(){
                             </li>
                             <li>
                                 <div className="contact-icon">
-                                    <i className="fa fa-phone"></i>
+                                    <i className="fa fa-phone"/>
                                 </div>
                                 <div className="contact-info">
                                     <a href="tel:+79309111770"><p>Позвоните нам</p>

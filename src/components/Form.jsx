@@ -52,7 +52,7 @@ export default class Form extends React.Component {
     handleSendMail(e) {
         e.preventDefault();
         let userData = this.state.SendMail;
-        fetch('http://edu.eapolyak.beget.tech/sendMail',{
+        fetch('http://програжданство.рф/sendMail',{
             method: "POST",
             body: JSON.stringify(userData),
             headers: {

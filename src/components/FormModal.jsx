@@ -41,7 +41,7 @@ export default class FormModal extends React.Component {
         let userData = this.state.SendMail;
 
 
-        fetch('http://edu.eapolyak.beget.tech/sendMail',{
+        fetch('http://програжданство.рф/sendMail',{
             method: "POST",
             body: JSON.stringify(userData),
             headers: {
